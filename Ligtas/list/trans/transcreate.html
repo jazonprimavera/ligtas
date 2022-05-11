@@ -1,0 +1,38 @@
+<html>
+<header>
+    <title></title>
+    <link rel="stylesheet" href="../../css/user.css">
+    <script type="module" src="./trans.js"></script>
+</header>
+
+<body>
+
+    <div class="content">
+        <div data-list-collection></div>
+
+        <!-- Make this in modal -->
+        <form data-form-addrescuer>
+            <input type="text" name="first_name" id="first_name" placeholder="firstname">
+            <input type="text" name="last_name" id="last_name" placeholder="lastname">
+            <input type="text" name="middle_name" id="middle_name" placeholder="middlename">
+            <input type="text" name="org_address" id="org_address" placeholder="org address">
+            <input type="text" name="rescue_org" id="rescue_org" placeholder="rescue org">
+            <input type="text" name="rescuer_num" id="rescuer_num" placeholder="rescuer num">
+            <button>Add Rescuer</button>
+        </form>
+
+        <!-- Make this in modal -->
+        <form data-form-updaterescuer>
+            <input type="hidden" name="referenceId" id="referenceId" value="">
+            <input type="text" name="first_name" id="first_name" value="" placeholder="firstname">
+            <input type="text" name="last_name" id="last_name" value="" placeholder="lastname">
+            <input type="text" name="middle_name" id="middle_name" value="" placeholder="middlename">
+            <input type="text" name="org_address" id="org_address" value="" placeholder="org address">
+            <input type="text" name="rescue_org" id="rescue_org" value="" placeholder="rescue org">
+            <input type="text" name="rescuer_num" id="rescuer_num" value="" placeholder="rescuer num">
+            <button>Update Rescuer</button>
+        </form>
+    </div>
+
+</body>
+<html>
